@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia-Rich Webpage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Multimedia Webpage</h1>
+    </header>
+    
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main Content Section -->
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Explore our multimedia content below.</p>
+            
+            <!-- Embedded Image -->
+            <img src="image.jpg" alt="Sample Image" width="400">
+            
+            <!-- Embedded Video -->
+            <video controls width="400">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <!-- Embedded Audio -->
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        
+        <section id="registration">
+            <h2>Registration Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="6">
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        
+        <section id="table">
+            <h2>Sample Table</h2>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alice</td>
+                    <td>25</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>30</td>
+                    <td>UK</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="list">
+            <h2>Favorite Hobbies</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Traveling</li>
+                <li>Photography</li>
+                <li>Coding</li>
+            </ul>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+</body>
+</html>
